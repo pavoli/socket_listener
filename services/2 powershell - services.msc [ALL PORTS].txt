@@ -1,0 +1,1 @@
+Set-Service -Name mesSocket_Listener -DisplayName "[ports 9217-....] MES JIS Shortage" -Description "[ports 9217-....] MES JIS Shortage" -StartupType Automatic

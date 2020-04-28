@@ -1,0 +1,1 @@
+sc create mesSocket_Listener binpath= "C:\Program Files (x86)\Windows Resource Kits\Tools\srvany.exe"

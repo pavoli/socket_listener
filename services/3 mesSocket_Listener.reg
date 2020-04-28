@@ -1,0 +1,21 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mesSocket_Listener]
+"Type"=dword:00000010
+"Start"=dword:00000002
+"ErrorControl"=dword:00000001
+"ImagePath"=hex(2):43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,\
+  20,00,46,00,69,00,6c,00,65,00,73,00,20,00,28,00,78,00,38,00,36,00,29,00,5c,\
+  00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,52,00,65,00,73,00,6f,00,\
+  75,00,72,00,63,00,65,00,20,00,4b,00,69,00,74,00,73,00,5c,00,54,00,6f,00,6f,\
+  00,6c,00,73,00,5c,00,73,00,72,00,76,00,61,00,6e,00,79,00,2e,00,65,00,78,00,\
+  65,00,00,00
+"DisplayName"="[ports 9217-....] MES JIS Shortage"
+"WOW64"=dword:00000001
+"ObjectName"="LocalSystem"
+"Description"="[ports 9217-....] MES JIS Shortage"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mesSocket_Listener\Parameters]
+"AppDirectory"="\"C:/Users/A110252/Desktop/JIS Shortage Monitor/program/socket_sample_all\""
+"Application"="\"C:/Python373_32/python.exe\""
+"AppParameters"="\"C:/Users/A110252/Desktop/JIS Shortage Monitor/program/socket_sample_all/run_socket.py\""
