@@ -88,10 +88,9 @@ class socket_server():
                     else:
                         log.debug('{0} | port listening'.format(self.port))
                         break
-                except socket.error as e:
-                    if e.errno == 10054:
-                        log.exception(
-                            '{0} | {1}'.format(self.port, type(e).__name__))
-                        break
+                except ConnectionResetError:
+                    log.warning('{0} | remote host reset connection'.format(self.port))
+                    break
                 except KeyboardInterrupt:
-                    log.exception('Process Interrupted')
+                    log.warning('Process Interrupted')
+                    break
